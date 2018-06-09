@@ -9,7 +9,6 @@ import java.util.Scanner;
 import javax.swing.JPanel;
 
 public class Main {
-	//第一次使用github
 	public static void main(String[] args) {
 		int[] i = new int[11];
 		//构造墙
