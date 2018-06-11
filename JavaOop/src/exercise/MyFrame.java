@@ -7,7 +7,7 @@ import java.awt.event.KeyListener;
 
 public class MyFrame extends JFrame {
 	public MyFrame() {
-		T t = new T(100,100);
+		T t = new T(250,250);
 		MyPanel mp = new MyPanel(t);
 		this.add(mp);
 		this.addKeyListener(mp);
@@ -78,7 +78,7 @@ class MyPanel extends JPanel implements KeyListener {
 			t.drop();
 			Cell[] cells = this.t.getCells();
 			int row = cells[1].getRow();
-			if(row == 400 - 10){
+			if(row == 400 - 50){
 				boolean[][] boo = wall.getWall();
 				for(int i=0;i<cells.length;i++){
 					//½«·½¿éÈëÇ½
