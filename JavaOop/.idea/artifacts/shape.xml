@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="shape">
+    <output-path>F:/MyJar</output-path>
+    <root id="archive" name="shape.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/src/day11/exercise" />
+    </root>
+  </artifact>
+</component>
