@@ -1,0 +1,53 @@
+API---Application Programming Interface---应用程序接口
+
+Object
+    是Java中所有类的父类---顶级父类
+
+    class Person{}---默认继承Object
+
+    重要方法
+
+        clone()---克隆出一个新的对象,新对象的属性值和原对象一样
+
+                  如果一个类的对象想要被克隆必须实现Cloneable接口
+
+        finalize()---通知垃圾回收器进行回收,但是GC不一定会执行
+
+
+        Bin(Binary)二进制缩写
+        Oct(Octonary)八进制缩写
+        Dec(Decimal)十进制缩写
+        Hex(Hexadecimal)十六进制缩写
+
+        二进制:0-1,0b/0B开头 --- jdk1.7(之前不支持二进制表示法)
+        	八进制:0-7,0开头
+        	十进制:0-9 无标志默认为10进制
+        	十六进制:0-9,A-F(a-f),0x/0X开头
+
+练习:重写Student类中的equals;
+    class Student{
+        private String name;
+        private String no;
+    }
+
+
+String
+
+    代表字符串的类 本身是一个最终类
+
+    字符串在Java底层实际上是以字符数组形式来存储的
+
+    字符串是常量,字符串是被共享的
+
+    StringBuilder是线程不安全的类
+
+    StringBuffer是线程安全的
+
+练习:
+    1.输入一个字符串,统计字符串中字母,数字以及其他符号的个数
+
+    2.输入一个字符串,提取这个字符串中的数字并且求和
+
+    3.输入一个字符串,提取这个字符串中的数字然后进行升序排序
+
+    4.输入一个字符串,输出这个字符串中的每一个字符出现的次数
